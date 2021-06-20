@@ -1,0 +1,8 @@
+{
+    "name": "aryopratama/oop-aryopratamaa",
+    "description": "WEB Tugas Praktikum Semester 6",
+    "type": "project",
+    "require": {
+        "php": "^7.4"
+    }
+}
