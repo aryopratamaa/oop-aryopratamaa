@@ -1,6 +1,6 @@
 <?php 
 
-include_once "app/Koneksi.php";
+include_once "app/Controller.php";
 include_once "app/Login.php";
 
 session_start();

@@ -2,7 +2,7 @@
 
 namespace app;
 
-class Login extends Koneksi {
+class Login extends Controller {
 
     public function __construct()
 	{
