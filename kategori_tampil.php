@@ -1,3 +1,9 @@
+<?php 
+
+require_once "app/Kategori.php";
+
+$kategori = new Kategori();
+$rows = $kategori->tampil();
 
 ?>
 	
@@ -12,7 +18,8 @@
 								<th class="cell">Nomor</th>
 								<th class="cell">ID Kategori</th>
 								<th class="cell">Nama Kategori</th>
-								<th class="cell">Teks</th>
+								<th class="cell">Keterangan Detail Kategori</th>
+								<th class="cell"></th>
 								<th class="cell"></th>
 							</tr>
 						</thead>
@@ -24,13 +31,12 @@
 							<tr>
 								<td class="cell"><?php echo $no++?></td>
 								<td class="cell"><?php echo $row['cat_id']; ?></td>
-								<td class="cell"><span class="truncate">Lorem ipsum dolor sit amet eget volutpat
-										erat</span></td>
-								<td class="cell">John Sanders</td>
-								<td class="cell"><span>17 Oct</span><span class="note">2:16 PM</span></td>
-								<td class="cell"><span class="badge bg-success">Paid</span></td>
-								<td class="cell">$259.35</td>
-								<td class="cell"><a class="btn-sm app-btn-secondary" href="#">View</a></td>
+								<td class="cell"><?php echo $row['cat_name']; ?></td>
+								<td class="cell"><span class="truncate"><?php echo $row['cat_text']; ?></span></td>
+								<td class="cell">
+									<a class="btn-sm app-btn-primary" href="#">Edit</a>
+									<a class="btn-sm app-btn-secondary" href="#">Delete</a>
+								</td>
 							</tr>
 
 						</tbody>
