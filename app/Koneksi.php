@@ -1,17 +1,21 @@
-<?php
+<?php 
 
-namespace App;
+namespace app;
 use PDO;
 
-class Koneksi {
+class Koneksi{
 
-    protected object $db;
+	protected $db;
 
-    public function __construct() {
+	public function __construct() {
 		try {
-			$this->db = new PDO ("mysql:host=localhost;dbname=oop-aryopratamaa", "root", "");
-		} catch (\Exception $e) {
-			die ("error! " . $e->getMessage());
+		
+			$this->db = new PDO("mysql:host=localhost;dbname=oop-aryopratamaa", "root", "");
+		} catch (Exception $e) {
+			die("error! " . $e->getMessage());
+	
 		}
-	}
+
+  	}
+
 }
