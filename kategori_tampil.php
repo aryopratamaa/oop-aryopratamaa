@@ -1,8 +1,3 @@
-<?php 
-
-
-$kategori = new app\Kategori();
-$rows = $kategori->tampil();
 
 ?>
 	
