@@ -25,4 +25,14 @@ class Kategori {
 		return $data;
 	}
 
+	public function delete($id)
+	{
+		$sql = "DELETE FROM tb_category WHERE cat_id=:cat_id";
+		$stmt=$this->db->prepare($sql);
+		$stmt->bindParam(":cat_id", $id);
+		$stmt->execute();
+
+		return false;
+	}
+
 }
