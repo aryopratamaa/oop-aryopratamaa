@@ -28,14 +28,14 @@
 				    <div class="app-auth-branding mb-4"><a class="app-logo" href="index.html"><img class="logo-icon me-2" src="layout/assets/images/logo.png" alt="logo"></a></div>
 					<h2 class="auth-heading text-center mb-5">Log in to Yo-Desain</h2>
 			        <div class="auth-form-container text-start">
-						<form class="auth-form login-form">         
+						<form action="login_proses.php" method="POST" class="auth-form login-form">         
 							<div class="email mb-3">
 								<label class="sr-only" for="signin-email">Email</label>
-								<input id="signin-email" name="signin-email" type="email" class="form-control signin-email" placeholder="Email address" required="required">
+								<input id="signin-email" name="user_email" type="email" class="form-control signin-email" placeholder="Email address" required="required">
 							</div><!--//form-group-->
 							<div class="password mb-3">
 								<label class="sr-only" for="signin-password">Password</label>
-								<input id="signin-password" name="signin-password" type="password" class="form-control signin-password" placeholder="Password" required="required">
+								<input id="signin-password" name="user_password" type="password" class="form-control signin-password" placeholder="Password" required="required">
 								<div class="extra mt-3 row justify-content-between">
 									<div class="col-6">
 										<div class="form-check">
@@ -53,7 +53,7 @@
 								</div><!--//extra-->
 							</div><!--//form-group-->
 							<div class="text-center">
-								<button type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">Log In</button>
+								<button name="submit" type="submit" class="btn app-btn-primary w-100 theme-btn mx-auto">Log In</button>
 							</div>
 						</form>
 						
@@ -79,8 +79,8 @@
 			    <div class="d-flex flex-column align-content-end h-100">
 				    <div class="h-100"></div>
 				    <div class="overlay-content p-3 p-lg-4 rounded">
-					    <h5 class="mb-3 overlay-title">Explore Portal Admin Template</h5>
-					    <div>Portal is a free Bootstrap 5 admin dashboard template. You can download and view the template license <a href="https://themes.3rdwavemedia.com/bootstrap-templates/admin-dashboard/portal-free-bootstrap-admin-dashboard-template-for-developers/">here</a>.</div>
+					    <h5 class="mb-3 overlay-title">Explore Portal Admin Yo-Desain</h5>
+					    <div>Website Portal admin ini dirancang untuk memenuhi tugas kuliah matakuliah Pemrograman WEB Lanjutan pada Semester 6.</div>
 				    </div>
 				</div>
 		    </div><!--//auth-background-overlay-->

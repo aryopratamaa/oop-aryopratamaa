@@ -2,7 +2,7 @@
 
 session_start();
 
-define ('URL', 'localhost/oop-aryopratamaa');
+define ('URL', 'localhost/oop-aryopratamaa/');
 
 define ('ASSET', URL . 'layout/assets/');
 

@@ -29,7 +29,7 @@ class Login extends Koneksi {
             if ($stmt->rowCount() == 1) {
 
                 echo "<script>alert('Berhasil Masuk');</script>";
-                echo "<script>location='index2.php';</script>"; 
+                echo "<script>location='index.php';</script>"; 
             } else {
                 echo "<script>alert('Email atau Password Anda Salah');</script>";
                 echo "<script>location='login.php';</script>";
