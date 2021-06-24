@@ -23,7 +23,7 @@ class Kategori extends koneksi {
 		return $data;
 	}
 	
-	public function tambah()
+	public function input()
 	{
 		$nama = $_POST['cat_name'];
 		$ket = $_POST['cat_ket'];
