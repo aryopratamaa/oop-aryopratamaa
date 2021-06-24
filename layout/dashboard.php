@@ -210,10 +210,9 @@
 								<ul class="submenu-list list-unstyled">
 									<li class="submenu-item"><a class="nav-link"
 											href="index.php?page=kategori">Categories</a></li>
-									<li class="submenu-item"><a class="nav-link" href="signup.html">Posts</a></li>
-									<li class="submenu-item"><a class="nav-link" href="reset-password.html">Photos</a>
-									</li>
-									<li class="submenu-item"><a class="nav-link" href="404.html">Album</a></li>
+									<li class="submenu-item"><a class="nav-link" href="index.php?page=post">Posts</a></li>
+									<li class="submenu-item"><a class="nav-link" href="index.php?page=photos">Photos</a></li>
+									<li class="submenu-item"><a class="nav-link" href="index.php?page=album">Album</a></li>
 								</ul>
 							</div>
 						</li>
