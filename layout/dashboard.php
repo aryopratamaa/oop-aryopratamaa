@@ -209,7 +209,7 @@
 							<div id="submenu-2" class="collapse submenu submenu-2" data-bs-parent="#menu-accordion">
 								<ul class="submenu-list list-unstyled">
 									<li class="submenu-item"><a class="nav-link"
-											href="index.php?page=kategori_tampil">Categories</a></li>
+											href="index.php?page=kategori">Categories</a></li>
 									<li class="submenu-item"><a class="nav-link" href="signup.html">Posts</a></li>
 									<li class="submenu-item"><a class="nav-link" href="reset-password.html">Photos</a>
 									</li>
