@@ -11,18 +11,25 @@ $rows = $kategori->tampil();
 </div>
 <!--//row-->
 <div class="tab-content" id="orders-table-tab-content">
-    <div class="tab-pane fade show active" id="orders-all" role="tabpanel" aria-labelledby="orders-all-tab">
-        <div class="app-card app-card-orders-table shadow-sm mb-5">
-            <div class="app-card-body">
-                <div class="table-responsive">
+    <div class="table-responsive">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+            <a class="btn app-btn-primary" href="index.php?page=kategori_tambah">+ TAMBAH</a> 
+            <a class="btn app-btn-secondary" href="index.php">Back to Home</a>
+        </div>
+        <br>
+        <div class="tab-pane fade show active" id="orders-all" role="tabpanel" aria-labelledby="orders-all-tab">
+            <div class="app-card app-card-orders-table shadow-sm mb-5">
+                <div class="app-card-body">
+
                     <table class="table app-table-hover mb-0 text-left">
+
                         <thead>
                             <tr>
                                 <th class="cell">Nomor</th>
                                 <th class="cell">ID Kategori</th>
                                 <th class="cell">Nama Kategori</th>
                                 <th class="cell">Keterangan Detail Kategori</th>
-                                <th class="cell"></th>
+                                <th class="cell">Action</th>
                                 <th class="cell"></th>
                             </tr>
                         </thead>
@@ -45,7 +52,7 @@ $rows = $kategori->tampil();
                                         <?php echo $row['cat_text']; ?>
                                     </span></td>
                                 <td class="cell">
-                                    <a class="btn-sm app-btn-primary" href="#">Edit</a>
+                                    <a class="btn-sm app-btn-primary" href="index.php?page=kategori_edit&id=<?php echo $row['cat_id']; ?>">Edit</a>
                                     <a class="delete btn-sm app-btn-secondary"
                                         href="index.php?page=kategori_proses&delete-id=<?php echo $row['cat_id']; ?>">Delete</a>
                                 </td>

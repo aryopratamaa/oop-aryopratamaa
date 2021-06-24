@@ -49,11 +49,11 @@ if ($_POST['btn_edit']) {
             font: 600 1.125rem/1.75rem Poppins, sans-serif;            
             padding: 0.5rem 5rem;
             border-radius: 0.75rem;
-            background-color: #4bb71b;
+            background-color: #15a362;
             transition: 0.3s;
         }
         .empty-3-1 .btn-view:hover{
-            background-color: #30830c;
+            background-color: #11814f;
             transition: 0.3s;
         }
 
