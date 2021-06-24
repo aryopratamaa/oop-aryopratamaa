@@ -65,9 +65,9 @@ $rows = $post->tampil();
                                     <?php echo $row['post_text']; ?>
                                     </span></td>
                                 <td class="cell">
-                                    <a class="btn-sm app-btn-primary" href="index.php?page=post_edit&id=<?php echo $row['cat_id']; ?>">Edit</a>
+                                    <a class="btn-sm app-btn-primary" href="index.php?page=post_edit&id=<?php echo $row['post_id']; ?>">Edit</a>
                                     <a class="delete btn-sm app-btn-secondary"
-                                        href="index.php?page=post_proses&delete-id=<?php echo $row['cat_id']; ?>">Delete</a>
+                                        href="index.php?page=post_proses&delete-id=<?php echo $row['post_id']; ?>">Delete</a>
                                 </td>
                             </tr>
 
