@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta name="description" content="">
-    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <meta name="author" content="Aryo Pratama">    
     <link rel="shortcut icon" href="favicon.ico"> 
     
     <!-- FontAwesome JS-->
@@ -57,7 +57,7 @@
 							</div>
 						</form>
 						
-						<div class="auth-option text-center pt-5">No Account? Sign up <a class="text-link" href="signup.html" >here</a>.</div>
+						<div class="auth-option text-center pt-5">No Account? Sign up <a class="text-link" href="signup.php" >here</a>.</div>
 					</div><!--//auth-form-container-->	
 
 			    </div><!--//auth-body-->
