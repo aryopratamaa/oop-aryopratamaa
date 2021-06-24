@@ -47,7 +47,7 @@
 								<input id="signup-name" name="user_hp" type="text" class="form-control signup-name" placeholder="Number Handphone" required="required">
 							</div>
 							<div class="extra mb-3">
-								<div class="form-check">
+								<div>
 									<input class="form-check-input" type="checkbox" value="" id="RememberPassword">
 									<label class="form-check-label" for="RememberPassword">
 									I agree <a href="#" class="app-link">Terms of Service</a> and <a href="#" class="app-link">Privacy Policy</a>.

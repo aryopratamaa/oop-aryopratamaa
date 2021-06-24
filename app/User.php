@@ -2,7 +2,7 @@
 
 include "app/Koneksi.php";
 
-class Users extends Koneksi{
+class User extends Koneksi{
 
 	public function __construct()
 	{
@@ -23,7 +23,7 @@ class Users extends Koneksi{
 		return $data;
 	}
 
-	public function tambah()
+	public function input()
 	{
 		$email = $_POST['user_email'];
 		$password = $_POST['user_password'];
